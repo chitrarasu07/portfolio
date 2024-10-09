@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <script src="https://kit.fontawesome.com/1957259b30.js" crossorigin="anonymous"></script>
+    <script>
+        function openMenuBar(){
+            if(document.getElementById("menuIcon").style.display === "none"){
+                document.getElementById("menuIcon").style.display="flex"
+            }
+           
+            else{
+                document.getElementById("menuIcon").style.display="none"
+            }
+           
+        }
+    </script>
+</head>
+
+<body>
+    
+    <div class="icon" >
+    <a href="https://api.whatsapp.com/send?phone=123456789" target="_blank">
+        <img src="./images/WhatsApp-PNG-Picture.png" />
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=123456789" target="_blank">
+        <img src="./images/Instagram12-Image.png"/>
+    </a>
+    <a href="https://www.facebook.com/" target="_blank">
+        <img src="./images/facebook-13.png" />
+    </a>
+    
+</div>
+    <nav class="navbar">
+        
+        <div class="heading">
+            <img src="./images/flipkart.png" alt="logo" width="50px" height="50px" style="float: left;"/>
+            <h1>Flipkart.com</h1>
+        </div>
+        <div class="menubar" id="menuIcon" >
+                <a href="#home" onclick="anctag()">Home</a>
+                <a href="#product" onclick="anctag()">Product</a>
+                <a href="#offers" onclick="anctag()">Offers</a>
+                <a href="#contact" onclick="anctag()">Contact</a>
+                <a href="#fot" onclick="anctag()">Address</a>
+        </div>
+        <button onclick="openMenuBar()" class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+
+    </nav>
+    <div class="whole_container">
+
+<div class="container1" id="#home">
+    <div class="asidelefttopabouts">
+          <h2>The Flipkart Group :</h2>
+          <p>The Flipkart Group is one of India's leading digital commerce entities and includes group companies Flipkart, Myntra, Flipkart Wholesale, Flipkart Health+, Cleartrip and ANS Commerce
+            Building trust with Integrity. At Flipkart, every decision made is based on ethical and moral principles - no success is meaningful if it’s not achieved the right way
+          </p>
+          <button>SHOP NOW</button>
+    </div>
+
+    <div class="asiderighttopimage">
+          <img src="./images/images.png" alt="profileimages " width="300px " height="400px"/>
+    </div>
+</div>
+
+<div class="container2">
+           <div class="asiderighttopimage">
+              <img src="./images/year calculation images.png" alt="profileimages " width="500px " height="400px "/>
+           </div>
+           <div class="asidelefttopabouts">
+              <h2>Innovation:</h2>
+              <p>Flipkart technology drives path-breaking, customer-focused innovation that makes high quality products accessible to Indian shoppers, besides making the online shopping experience convenient, intuitive and seamless.
+                The future of e-commerce is sustainable, equitable and inclusive. As we continue to drive changes across key areas of our operations, our commitment is embedded in our vision to create a positive impact, for the planet and communities
+              </p>
+            </div>
+</div>
+
+<div id="product">Product</div>
+
+<div class="container3">
+    
+    <div class="title1">
+        <img src="./images/t-shirt.png" alt="tshirt" width="150px" height="150px"/>
+     <h2>T-Shirt</h2>
+     <p>The highlight of this t-shirt product description is the use of bullet points to highlight the primary features and benefits of the product. At one glance, a customer can quickly get all the essential details</p>
+     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+     <p><i class="fa-solid fa-dollar-sign"></i><span>10.0</span></p>
+     <button>ADD TO CARD</button>
+     
+    </div>
+    <div class="title1">
+        <img src="./images/60b79e8771a1fd000411f6be.png" alt="tshirt" width="150px" height="150px"/>
+     <h2>Airpodes Pro</h2>
+     <p>The highlight of this t-shirt product description is the use of bullet points to highlight the primary features and benefits of the product. At one glance, a customer can quickly get all the essential details</p>
+     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+     <p><i class="fa-solid fa-dollar-sign"></i><span>10.0</span></p>
+     <button>ADD TO CARD</button>
+     
+    </div>
+     <div class="title1">
+        <img src="./images/Nike-Shoes-PNG-Photo.png" alt="tshirt" width="150px" height="150px"/>
+     <h2>Nike-Shoe</h2>
+     <p>The highlight of this t-shirt product description is the use of bullet points to highlight the primary features and benefits of the product. At one glance, a customer can quickly get all the essential details</p>
+     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+     <p><i class="fa-solid fa-dollar-sign"></i><span>10.0</span></p>
+     <button>ADD TO CARD</button>
+    </div>
+    <div class="title1">
+        <img src="./images/Apple-iPhone-12-Transparent-Images.PNG" alt="tshirt" width="100px" height="150px"/>
+     <h2>I-Phone 12</h2>
+     <p>The highlight of this t-shirt product description is the use of bullet points to highlight the primary features and benefits of the product. At one glance, a customer can quickly get all the essential details</p>
+     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+     <p><i class="fa-solid fa-dollar-sign"></i><span>10.0</span></p>
+     <button>ADD TO CARD</button>
+     
+    </div>
+</div>
+<div class="live-offer">
+    <img src="./images/LIVE ON OFFERS.PNG" />
+</div>
+
+<div class="container4" id="offers" >
+    <h1 >Offers</h1>
+   
+    <div class="card1">
+        <div class="img">
+        <img src="./images/flikart offer.png" width="250px" height="140px" style="float: left;border-radius: 20px;"/>
+    </div>
+        <div>
+        <h2>Smart Watch</h2>
+        <p>Brands like Fire-Boltt, Noise, Clairbell, Ambrane, Syska and others are selling cheap smart watches online. If you are planning to upgrade your regular watch, a calling smartwatch can be a great alternative. These smartwatches offer hands-free calling functionality and notifies you about your calls and messages instantly</p>
+        <button>Offers Now</button>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="img">
+        <img src="./images/Ac offer.png" width="250px" height="140px" style="float:right;border-radius: 20px;"/>
+    </div>
+    <div>
+
+   
+        <h2>AC OFFERS</h2>
+        <p>Buy latest Air Conditioners online at Flipkart at discount prices. Shop from wide range of AC from top brands. Free Shipping, No Cost EMI, Huge Discounts. Invest in an AC to ensure that you have the proper cooling and ambient conditions all year round</p>
+        <button>Offers Now</button>
+    </div>
+    </div>
+    
+    <div class="card3">
+        <div class="img">
+      
+        <img src="./images/lg offer.png" width="250px" height="140px" style="float: left;border-radius: 20px;"/>
+              
+    </div> 
+    <div>
+    <h2>LG OFFERS</h2>
+    <p>Your household chores will never seem a burden with LG’s premium home appliances. Choose from microwave ovens , Side By Side Refrigerators, Dishwashers, top and front load washing machines including the revolutionary Twin Wash machines, air conditioners, air dehumidifiers.</p>
+    <button>Offers Now</button>
+    </div>
+</div>
+
+       <div class="card4">
+        <div class="img">
+        <img src="./images/flikart offer.png" width="250px" height="140px" style="float:right;border-radius: 20px;"/>
+    </div>
+    <div>
+          <h2>Smart Watch</h2>
+         <p>Brands like Fire-Boltt, Noise, Clairbell, Ambrane, Syska and others are selling cheap smart watches online. If you are planning to upgrade your regular watch, a calling smartwatch can be a great alternative. These smartwatches offer hands-free calling functionality and notifies you about your calls and messages instantly</p>
+         <button>Offers Now</button>
+        </div>
+    </div>
+</div>
+
+<footer class="footercontent " id="fot">
+   <div class="footercard1">
+    <h1>Address</h1>
+    <p>Velachery, Chennai, Tamil Nadu 600042,<br>
+        X6GC+9C Chennai, Tamil Nadu
+    </p>
+
+   </div>
+   <div class="footercard2">
+    <h1>Links</h1>
+  <i class="fa-brands fa-whatsapp"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-x-twitter"></i>
+   </div>
+   <div class="footercard3">
+    <h1>Location</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31103.08645922203!2d80.19917227729223!3d12.97915490910224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9ff2065a3b%3A0x66435015604038cc!2sVelachery%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1727884711353!5m2!1sen!2sin" width="100" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+
+</footer>
+</div>
+
+    <!-- #AF20E3  #2F20E3    #AF20E3  #E320CD  #6F20E3-->
+
+</body>
+</html>

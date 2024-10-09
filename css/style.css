@@ -1,0 +1,428 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+/* color: white; */
+
+}
+body{
+    /* background-color:black; */
+    position: relative;
+}
+.whole_container{
+  padding: 10px;
+ 
+}
+.icon{
+    position: fixed;
+    right: 10px;
+    gap: 5px;
+    bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+.icon a{
+   filter: drop-shadow(0px 0px 5px );
+}
+.navbar{
+    box-shadow: 1px 0px 10px black;
+    display: flex;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+    justify-content: space-between;
+    background-color:#AF20E3;
+    height: 8vh;
+    align-items: center;
+   
+  
+}
+.navbar h1{
+    font-size: 30px;
+    margin-top: 15px;
+    
+    width: 50%;
+    float: left;
+}
+.navbar button{
+    display: none;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.menubar{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-around;
+    transition:all Scale 1ms;
+   
+}
+.menubar{
+    display: flex;
+    width: 50%;
+   
+}
+
+.menubar a:hover{
+    scale: 1.1;
+    box-shadow: 0px 0px 10px black;
+}
+.menubar a{
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+/* .......................... nav bar end ............................................ */
+/* starting container1 */
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* padding: 50px; */
+    
+  
+}
+.container1 button{
+    width: 100px;
+    background-color: #AF20E3;
+    color:black;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px ;
+    border: 1px solid black;
+}
+.asidelefttopabouts{
+   width: 50%;
+   justify-content: center;
+   align-items: center;
+   line-height: 2;
+   
+   text-align: justify;
+   
+  
+
+}
+.asiderighttopimage{
+    padding: 5px;
+    margin: 10px;
+   justify-content: center;
+   align-items: center;
+    width:700px; 
+    height:450px;
+    border: 2px solid black;
+    box-shadow: 1px 0px 10px black;
+  text-align: center;
+  border-radius: 100px;
+}
+
+/* ............................container1 closed................................. */
+/* ................................starting container2................................. */
+.container2{
+    display: flex;
+    padding: 10px;
+}
+
+/* ......................end of the contianer2.......................... */
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+#product{
+    font-size: 80px;
+    text-align: center;
+
+    color:container3
+   
+}
+.container3 button{
+    padding: 20px;
+}
+/* .......................container3 started .......................... */
+.container3{
+   display: flex;
+   justify-content: space-evenly;
+  transition: Scale 1s;
+gap: 30px;
+  padding: 30px;
+
+}
+.container3 img{
+    border-radius: 50px;
+}
+.title1{
+    padding: 5px;
+    line-height: 1.5;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+.title1:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.title1,.title2,.title3,.title4{
+   
+   justify-content: center;
+    width: 300px;
+
+}
+.container3 button{
+    margin-top: 2px;
+    border-radius: 9px;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+    background-color: #AF20E3;
+   border:none;
+}
+/* .................contianer3 closed......................... */
+
+.live-offer{
+    display: flex;
+    
+    height:200px;
+    margin: 5px;
+}
+.live-offer img{
+    width: 100%;
+}
+/* .............container4 started............................ */
+.container4{
+    text-align: center;
+    
+padding-left: 80px;
+padding-right: 80px;
+
+
+}
+.container4>h1{
+    font-size: 60px;
+}
+.card1{
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    width: 650px;
+    border-radius: 20px;
+  border: 2px solid #AF20E3;
+}
+.card1 button{
+    font-weight: bolder;
+    padding: 12px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: #AF20E3;
+}
+.card2{
+    float: right;
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    width: 650px;
+    border-radius: 20px;
+    border: 2px solid #AF20E3;
+}
+.card2 button{
+    font-weight: bolder;
+    padding: 12px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: #AF20E3;
+}
+.card3{
+    clear: right;
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    width: 650px;
+    border-radius: 12px;
+    border: 2px solid #AF20E3;
+}
+.card3 button{
+    font-weight: bolder;
+    padding: 12px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: #AF20E3;
+}
+.card4{
+   float: right;
+   cursor: pointer;
+    margin: 10px;
+    padding: 12px;
+    width: 650px;
+    border-radius: 20px;
+    border: 2px solid #AF20E3;
+}
+.card4 button{
+    font-weight: bolder;
+    
+    padding: 12px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color:#AF20E3;
+}
+/* ..................................footer content started................ */
+.footercontent{
+display: flex;
+clear: right;
+padding: 20px;
+justify-content: space-evenly;
+background-color:#AD00EB;
+}
+.footercard2>i{
+   
+   margin-left: 10px;
+}
+
+
+/* .............media quere.............. */
+
+
+@media only screen and (min-width:300px) and (max-width:780px) {
+    .navbar{
+        width: 100%;
+    }
+.whole_container{
+    width: 100%;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+    .menubar{
+        display: none;
+       
+    }  
+    
+    .menubar{
+        position: absolute;
+        top: 50px;
+        flex-direction: column;
+        right:5px;
+        
+        background-color: #2F20E3;
+       
+    }
+
+    .container1{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+        .asidelefttopabouts{
+            width: 100%;
+           
+            margin:0px;
+        }
+        .asiderighttopimage{
+            width: 90%;
+            height: 150px;
+        }
+    
+    .container2{
+        display: flex;
+        flex-direction: column;
+       
+        margin: 10px;
+    }
+
+        .asiderighttopimage{
+            width: 100%;
+        }
+        .asiderighttopimage>img{
+            width:150px ;
+            margin-top: 30px;
+            height:100px ;
+            align-items: center;
+        }
+        .asidelefttopabouts{
+            width: 100%;
+           
+        }
+       .container3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 50px;
+       }
+       .title1{
+        width: 250px;
+       }
+    
+
+       .container4{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+       }
+      
+       .card1{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        float: none;
+        width: 280px;
+       }
+       .img{
+         display: flex;
+        
+         justify-content: center;
+          align-items: center;
+       }
+       .card2{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        float: none;
+        width: 280px;
+       }
+       .card3{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 280px;
+       }
+       .card4{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        float: none;
+        width: 280px;
+       }
+       iframe{
+         display: none;
+       }
+       .navbar button{
+        display:block;
+        margin: 5px;
+       }
+       .footercontent{
+        flex-direction: column;
+       }
+       
+    }
