@@ -73,6 +73,7 @@ body{
     box-shadow: 0px 0px 10px black;
 }
 .menubar a{
+    border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
     font-weight: bolder;
@@ -308,8 +309,8 @@ background-color:#AD00EB;
     width: 100%;
 }
 .icon img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
     .menubar{
         display: none;
@@ -320,10 +321,20 @@ background-color:#AD00EB;
         position: absolute;
         top: 50px;
         flex-direction: column;
-        right:5px;
-        
-        background-color: #2F20E3;
+        right: 10px;
+        gap: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-weight: bolder;
+        background-color: darkorchid;
+        padding: 5px;
        
+    }
+    .menubar a{
+        border: 1px solid white;
+    }
+    .menubar a:hover{
+        display: none;
     }
 
     .container1{
@@ -414,9 +425,7 @@ background-color:#AD00EB;
         float: none;
         width: 280px;
        }
-       iframe{
-         display: none;
-       }
+       
        .navbar button{
         display:block;
         margin: 5px;
